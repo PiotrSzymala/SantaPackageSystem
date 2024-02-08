@@ -10,8 +10,8 @@ using SantaPackageSystem.Infrastructure.Repository;
 namespace SantaPackageSystem.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240208170745_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240208180836_changeColumnType")]
+    partial class changeColumnType
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -50,6 +50,10 @@ namespace SantaPackageSystem.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PackageName")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
