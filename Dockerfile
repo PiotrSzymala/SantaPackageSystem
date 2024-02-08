@@ -13,6 +13,10 @@ RUN dotnet build "SantaPackageSystem.csproj" -c Release -o /app/build
 FROM build AS publish
 RUN dotnet publish "SantaPackageSystem.csproj" -c Release -o /app/publish
 
+# Kopiowanie pliku bazy danych SQLite do obrazu Docker
+COPY app.db /app/
+
+
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
