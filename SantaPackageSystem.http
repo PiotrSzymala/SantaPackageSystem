@@ -1,0 +1,6 @@
+@SantaPackageSystem_HostAddress = http://localhost:5231
+
+GET {{SantaPackageSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

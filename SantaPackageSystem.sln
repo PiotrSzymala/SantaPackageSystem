@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SantaPackageSystem - Backup", "SantaPackageSystem - Backup.csproj", "{27BDAD5A-3C0B-40F8-B7B2-26F5C3AED8C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SantaPackageSystem", "SantaPackageSystem.csproj", "{574CB5BE-FAF1-4A37-AC01-59144D812750}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27BDAD5A-3C0B-40F8-B7B2-26F5C3AED8C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BDAD5A-3C0B-40F8-B7B2-26F5C3AED8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BDAD5A-3C0B-40F8-B7B2-26F5C3AED8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BDAD5A-3C0B-40F8-B7B2-26F5C3AED8C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574CB5BE-FAF1-4A37-AC01-59144D812750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574CB5BE-FAF1-4A37-AC01-59144D812750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574CB5BE-FAF1-4A37-AC01-59144D812750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574CB5BE-FAF1-4A37-AC01-59144D812750}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {879981B0-19D7-4D2F-8396-5ED0085294DE}
+	EndGlobalSection
+EndGlobal
